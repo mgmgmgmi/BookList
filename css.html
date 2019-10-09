@@ -1,0 +1,59 @@
+<style>
+
+/* 通常のボタン色 */
+.btn-orange,
+.btn-orange.disabled, .btn-orange:disabled {
+  color: #fff;
+  background-color: #ff9933;
+  border-color: #ff9933;
+}
+
+/* focusされた時の枠線の色 */
+.btn-orange:focus, .btn-orange.focus,
+.btn-orange:not(:disabled):not(.disabled):active:focus, .btn-orange:not(:disabled):not(.disabled).active:focus,
+.show > .btn-orange.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(200, 123, 255, 0.5);
+}
+
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定） */
+.btn-orange:hover {
+  color: #fff;
+  background-color: #fe8c23;
+  border-color: #fe8c23;
+}
+
+/* active時の色（hover時と同等かさらに濃いor暗めの色を指定） */
+.btn-orange:not(:disabled):not(.disabled):active, .btn-orange:not(:disabled):not(.disabled).active,
+.show > .btn-orange.dropdown-toggle {
+  color: #fff;
+  background-color: #fe8c23;
+  border-color: #fe8c23;
+}
+
+.navbar-orange {
+    background-color: #ff9933;
+    color:#fff;
+    border-radius:0;
+    border-color: #ff9933;
+}
+ 
+.navbar-orange .navbar-nav > li > a {
+    color:#fff;
+}
+
+.navbar-orange .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color:#fff;
+    color:#000;
+}
+
+.navbar-orange .navbar-brand {
+    color:#fff;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif
+    font-size:14px;
+}
+
+</style>
